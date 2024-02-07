@@ -1,0 +1,114 @@
+:root {
+  --regular-weight: 400;
+  --medium-weight: 500;
+  --bold-weight: 600;
+
+  --color-primary-100: #6b68fe;
+  --color-primary-dark-20: #5653cb;
+  --color-primary-80: #8986fe;
+  --color-primary-70: #9795fe;
+  --color-primary-60: #a6a4fe;
+  --color-primary-50: #b5b4ff;
+  --color-primary-40: #c4c3ff;
+  --color-primary-30: #d3d2ff;
+  --color-primary-20: #e1e1ff;
+  --color-primary-10: #f0f0ff;
+
+  --color-secondary-100: #19175c;
+  --color-secondary-dark-30: #121040;
+  --color-secondary-80: #47457d;
+  --color-secondary-70: #5e5d8d;
+  --color-secondary-60: #75759d;
+  --color-secondary-50: #8c8bae;
+  --color-secondary-40: #a3a2be;
+  --color-secondary-30: #bab9ce;
+  --color-secondary-20: #d1d1de;
+  --color-secondary-10: #e8e8ef;
+  --color-secondary-5: #f4f3f7;
+
+  --color-tag-red-text: #bf1414;
+  --color-tag-red-base: #fff3f3;
+  --color-tag-pink-text: #ca1cca;
+  --color-tag-pink-base: #ffefff;
+  --color-tag-blue-text: #146d9c;
+  --color-tag-blue-base: #f0faff;
+  --color-tag-green-text: #07803e;
+  --color-tag-green-base: #f0fff7;
+  --color-tag-yellow-text: #b4700a;
+  --color-tag-yellow-base: #fffbf3;
+
+  --color-warning-first: #ffeef2;
+  --color-warning-second: #fff8f9;
+  --color-warning-dialog-first: #ffecb4;
+  --color-warning-dialog-second: #fff7df;
+  --color-warning-dialog-icon: #ec920b;
+
+  --color-success-icon-color: #039855;
+  --color-success-first: #d1fadf;
+  --color-success-second: #ecfdf3;
+
+  --color-other-white: #ffffff;
+  --color-other-color-2: #090827;
+  --color-other-color-3: #191743;
+  --color-other-color-4: #f6f6ff;
+  --color-other-color-5: #5e5d74;
+  --color-other-color-6: #ff3e60;
+  --color-other-color-7: #818e95;
+  --color-other-color-description: #6a6a95;
+  --color-other-color-background: #fafcfe;
+  --color-other-color-divider: #eaecf0;
+  --color-other-color-stroke: #d0d5dc;
+  --color-other-color-input-bg: #f9faff;
+}
+
+.ant-menu {
+  li {
+    font-size: 16px;
+    // padding: 10px;
+
+    //.ant-menu-item {
+    //  padding-inline: 12px !important;
+    //  padding-block: 6px !important;
+    //}
+  }
+}
+
+.ant-layout-sider-children {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-menu {
+  position: fixed;
+  bottom: 2px;
+  left: 8px;
+}
+
+.layout-profile {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 19px 19px 19px;
+
+  &-name {
+    font-weight: var(--bold-weight);
+    font-size: 14px;
+    margin-bottom: 3px;
+  }
+  &-email {
+    font-weight: var(--regular-weight);
+    font-size: 12px;
+  }
+}
+
+.ant-menu-item {
+  //margin-bottom: 12px !important;
+}
+
+.ant-menu-inline-collapsed > .ant-menu-item {
+}
+
+.ant-table-wrapper .ant-table-tbody .ant-table-row-selected > td {
+  background-color: #f9faff !important;
+}

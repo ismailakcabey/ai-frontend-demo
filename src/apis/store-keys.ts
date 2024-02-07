@@ -1,0 +1,4 @@
+export const STORE_KEYS = {
+  USERS: "USERS",
+  CURRENT_USER: "CURRENT_USER",
+};
